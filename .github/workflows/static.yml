@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To Radhika, With Love</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 25px 20px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      backdrop-filter: blur(5px);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #fff0f5;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      margin: 15px 0;
+    }
+
+    textarea {
+      width: 95%;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      font-size: 1rem;
+      resize: vertical;
+      margin-top: 20px;
+      min-height: 120px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    input[type="submit"] {
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #ff6fa4;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #e0558a;
+    }
+
+    .heart {
+      font-size: 2rem;
+      margin-top: 15px;
+      animation: heartbeat 1.5s infinite;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    .signature {
+      margin-top: 20px;
+      font-style: italic;
+      font-size: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Dear Radhika,</h1>
+    <p>
+      I’m not asking for love — only to understand the silence between us.<br>
+      If there’s pain, fear, or untold stories inside you, I want to hear them.
+    </p>
+    <p>
+      You don’t have to hold it in anymore. This is a safe place — just your words and my heart.
+    </p>
+
+    <!-- ❤️ MESSAGE FORM START -->
+    <form action="https://formsubmit.co/vansh.sharma111105@gmail.com" method="POST">
+      <textarea name="radhika_message" placeholder="Write your heart here..."></textarea><br>
+      <input type="submit" value="Send to Me">
+    </form>
+    <!-- ❤️ MESSAGE FORM END -->
+
+    <div class="heart">❤️</div>
+    <div class="signature">
+      Always waiting, always hoping.<br>
+      – Yours, Vansh
+    </div>
+  </div>
+</body>
+</html>
